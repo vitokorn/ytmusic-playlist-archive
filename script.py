@@ -479,10 +479,10 @@ class Formatter:
 
 
 class URL:
-    BASE = ""
+    BASE = "/playlists"
     HISTORY_BASE = (
         "https://github.githistory.xyz/vitokorn/ytmusic-playlist-archive/"
-        "blob/master"
+        "blob/master/playlists"
     )
 
     @classmethod
