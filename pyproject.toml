@@ -1,0 +1,10 @@
+[project]
+name = "ytmusic-playlist-archive"
+version = "0.1.0"
+description = "Daily snapshots of public YouTube Music playlists"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "aiohttp==3.13.4",
+    "ytmusicapi==1.12.0",
+]
